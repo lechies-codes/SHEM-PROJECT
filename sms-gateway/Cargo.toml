@@ -1,0 +1,11 @@
+[package]
+name = "sms-gateway"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+axum = "0.7"
+tokio = { version = "1", features = ["full"] }
+chrono = "0.4"
+serde = { version = "1", features = ["derive"] }
+
